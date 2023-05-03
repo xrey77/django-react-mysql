@@ -1,0 +1,83 @@
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px; 
+  height: 30px!important;
+  padding: 0;
+  margin-top: -80px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+  border-radius: 100%; 
+}
+.logo {
+  width: 150px;
+  height: 40px;
+}
+#staticBackdrop {
+  width: 80%!important;
+}
+
+@media (min-width: 1200px) {
+  .offcanvas {
+    visibility: hidden;
+  }
+}
+
+.msg-fsize {
+  font-size: 12px;
+}
+
+.btn-hide {
+  visibility: hidden;
+}
+.ml {
+  margin-left: 10px;
+}
+
+.footer {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.user {
+  width: 100px;
+  height: 100px;
+}
+
+.file-top {
+  margin-top: 20px;
+}
+.qrcode1 {
+  float: right;
+  width: 200px;
+  height: auto;
+}
+.qrcode2 {
+  float: right;
+  opacity: 0.4;
+}
+.profile-card {
+  margin: auto;
+  width: 90%;
+}
+
+.xcard {
+  width: 250px!important;
+  height: 250px!important;
+}
+
+.sw {
+  max-width: 350px!important;
+  width: 400px!important;
+  height: 400px;
+  margin-left: 13px;
+}
